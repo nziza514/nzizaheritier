@@ -1,35 +1,189 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nziza Heritier — Rwandan filmmaker, cinematographer, director and editor. Founder of Imiringa Productions.">
-  <meta name="theme-color" content="#0c0c0b">
-  <title>Nziza Heritier — Filmmaker & Cinematographer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="noise"></div><div class="cursor"></div>
-  <header class="site-header">
-    <a class="logo" href="index.html"><span>NH</span><b>Nziza Heritier</b></a>
-    <button class="menu-toggle" aria-label="Toggle navigation"><i></i><i></i></button>
-    <nav class="site-nav"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="work.html">Selected work</a><a href="contact.html">Contact</a></nav>
-    <a class="nav-cta" href="contact.html">Start a project <span>↗</span></a>
-  </header>
-  <main>
-    <section class="hero home-hero">
-      <div class="hero-content reveal"><p class="kicker">Rwanda · East Africa <span></span> 01 / 04</p><h1>Stories that<br><em>stay with you.</em></h1><p class="hero-desc">Filmmaker, cinematographer, director and editor crafting evocative images with a distinctly human pulse.</p><a class="text-link" href="work.html">Explore the work <span>↗</span></a></div>
-      <div class="hero-visual reveal delay-1"><div class="hero-image"></div><div class="image-meta"><span>IMIRINGA PRODUCTIONS</span><span>Creative studio / 2024</span></div></div>
-      <div class="scroll-cue"><span>Scroll to discover</span><i></i></div>
-    </section>
-    <section class="intro section-pad reveal"><p class="kicker">The intention</p><div class="intro-grid"><h2>Every story deserves<br>to be <em>seen, felt<br>and remembered.</em></h2><div><p class="large-copy">I create visual stories that connect audiences beyond borders — from cinematic films and documentaries to branded worlds and intimate portraits.</p><a class="text-link" href="about.html">Meet the filmmaker <span>↗</span></a></div></div></section>
-    <section class="dark-section section-pad selected"><div class="section-top reveal"><div><p class="kicker">A selection <span></span></p><h2>In the <em>frame</em></h2></div><a class="text-link light" href="work.html">View all work <span>↗</span></a></div><div class="project-grid"><a class="project-card project-a reveal" href="work.html"><div class="project-image"></div><div class="project-info"><span>01 / Documentary</span><h3>Echoes of home</h3><small>Director · Cinematographer</small></div></a><a class="project-card project-b reveal delay-1" href="work.html"><div class="project-image"></div><div class="project-info"><span>02 / Branded film</span><h3>Golden hour</h3><small>Director · Editor</small></div></a><a class="project-card project-c reveal delay-2" href="work.html"><div class="project-image"></div><div class="project-info"><span>03 / Portrait</span><h3>In their light</h3><small>Cinematographer</small></div></a></div></section>
-    <section class="closing section-pad reveal"><p class="kicker">From concept to screen</p><h2>Visual language<br>with a <em>human pulse.</em></h2><a class="round-link" href="contact.html">Let’s make<br>something <em>lasting</em> <b>↗</b></a></section>
-  </main>
-  <footer class="footer"><div class="footer-name">NZIZA<br><em>HERITIER</em></div><div><p class="kicker">Founder & Creative Director</p><p>IMIRINGA PRODUCTIONS</p></div><div><p class="kicker">Get in touch</p><a href="mailto:nzizaheritier6@gmail.com">nzizaheritier6@gmail.com</a><a href="https://www.instagram.com/heritier__nziza/" target="_blank" rel="noreferrer">Instagram ↗</a></div><small>© 2024 Nziza Heritier</small></footer>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nziza Heritier — Filmmaker, cinematographer, director and editor from Rwanda. Founder and creative director of IMIRINGA PRODUCTIONS."
+    />
+    <meta name="theme-color" content="#0b0c0f" />
+    <title>Nziza Heritier | Filmmaker & Cinematographer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Nziza Heritier home">
+        <span class="brand-mark">NH</span>
+        <span class="brand-text">
+          <small>FILMMAKER</small>
+          <strong>NZIZA HERITIER</strong>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="nav-cta" href="contact.html">Start a project</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Rwanda • Filmmaker • Director • Editor</p>
+          <h1>
+            Stories crafted in
+            <span>light</span>, emotion, and memory.
+          </h1>
+          <p class="lead">
+            I’m Nziza Heritier, a filmmaker, cinematographer, director, and editor from Rwanda,
+            dedicated to telling stories that move people beyond borders.
+          </p>
+
+          <div class="cta-row">
+            <a class="button button-primary" href="contact.html">Book a project</a>
+            <a class="button button-secondary" href="work.html">View work</a>
+          </div>
+
+          <ul class="tag-list">
+            <li>Filmmaker</li>
+            <li>Cinematographer</li>
+            <li>Director</li>
+            <li>Editor</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="portrait-card">
+            <div class="portrait-photo" aria-label="Profile portrait placeholder"></div>
+            <div class="portrait-meta">
+              <span>Founder & Creative Director</span>
+              <strong>IMIRINGA PRODUCTIONS</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro reveal">
+        <div class="section-label">Identity</div>
+        <div class="intro-grid">
+          <h2>
+            Every story deserves to be<br />
+            <span>seen, felt, and remembered.</span>
+          </h2>
+          <p>
+            My work is driven by a simple belief: powerful visual storytelling has the ability to
+            transform ideas into unforgettable experiences. From cinematic films and documentaries
+            to branded content and visual productions, I merge storytelling, cinematography, and
+            post-production into a distinct creative language.
+          </p>
+        </div>
+      </section>
+
+      <section class="section services reveal">
+        <div class="section-head">
+          <div class="section-label">Creative focus</div>
+          <h3>Visual storytelling with intention.</h3>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-index">01</span>
+            <h4>Film & Documentary</h4>
+            <p>Crafting cinematic narratives rooted in truth, emotion, and cultural depth.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-index">02</span>
+            <h4>Cinematography</h4>
+            <p>Building frames that carry atmosphere, movement, and meaning from idea to screen.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-index">03</span>
+            <h4>Direction</h4>
+            <p>Guiding creative vision with clarity, rhythm, and human feeling across every scene.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-index">04</span>
+            <h4>Editing</h4>
+            <p>Shaping compelling visual narratives through precise pacing and emotional storytelling.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section showcase reveal">
+        <div class="showcase-copy">
+          <div class="section-label">The studio</div>
+          <h3>IMIRINGA PRODUCTIONS</h3>
+          <p>
+            A Rwanda-based film production company focused on cinematography, film and documentary
+            production, directing, editing, and creative visual storytelling. Through IMIRINGA
+            PRODUCTIONS, I work with individuals, brands, organizations, and creative teams to bring
+            meaningful stories from concept to screen.
+          </p>
+        </div>
+
+        <div class="showcase-panel">
+          <p class="quote">
+            “This is more than a career to me. It is the story I’ve chosen to tell with my life.”
+          </p>
+        </div>
+      </section>
+
+      <section class="section statement reveal">
+        <div class="section-label">Global perspective</div>
+        <h3>
+          Rooted in African storytelling,<br />
+          shaped for the world.
+        </h3>
+        <p>
+          My journey is rooted in African storytelling, but my vision is global. I am continuously
+          developing my craft, working with passionate creatives, and pursuing opportunities that
+          allow me to contribute to the future of cinema while representing Rwanda on the
+          international stage.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span>NZIZA</span>
+        <span>HERITIER</span>
+      </div>
+
+      <div class="footer-copy">
+        <p class="label">Founder & Creative Director</p>
+        <p>IMIRINGA PRODUCTIONS</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="mailto:nzizaheritier6@gmail.com">nzizaheritier6@gmail.com</a>
+        <a href="mailto:imiringaproductions@gmail.com">imiringaproductions@gmail.com</a>
+        <a href="https://www.instagram.com/heritier__nziza/" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
